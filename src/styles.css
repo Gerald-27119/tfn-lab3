@@ -1,0 +1,59 @@
+:root {
+    --primary-background-color: #d4d0d0;
+    --secondary-background-color: #e2b3b3;
+}
+
+html {
+    /*font-size: 62.5%;*/
+    overflow-y: scroll;
+}
+
+body {
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid black;
+}
+
+.listSection {
+    width: 76vw;
+}
+
+.formSection {
+    height: 22rem;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+}
+
+form > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-background-color);
+    padding: 0;
+}
+
+li {
+    border: 1px black solid;
+    padding: 1rem;
+}
